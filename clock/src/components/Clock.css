@@ -1,0 +1,31 @@
+
+.clock {
+  border-radius: 100%;
+  background: #000;
+  width: 200px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.stick {
+  position: absolute;
+  width: 8px;
+  border-radius: 10px;
+}
+
+.seconds-stick {
+  height: 80px;
+  background: red;
+}
+
+.hours-stick {
+  height: 40px;
+  background: #fff;
+}
+
+.minutes-stick {
+  height: 80px;
+  background: grey;
+}
